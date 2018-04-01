@@ -25,6 +25,6 @@ for i = 1:binlen
     end        
 end
 
-mappedlist = terlist;
+mappedlist = binlist;
 
 end
