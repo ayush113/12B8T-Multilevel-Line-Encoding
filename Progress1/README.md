@@ -1,4 +1,4 @@
-#INFORMATION PROGRESS-1
+# INFORMATION PROGRESS-1
 1. OBJECTIVES.md lists out all the objectives for this submission and some further goals
    related to the current work.
 
