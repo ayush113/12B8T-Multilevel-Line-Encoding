@@ -8,6 +8,8 @@
    number is unique.
 5. Creating a function to ensure that the mapping satisfies the constraint of
    the encoding method
+6. Create a graphing function for simulating the transfer of data and to visualise
+   the encoding.
 
 <h2> Further Goals </h2>
 1. Implementing the 12B8T Encoding scheme using the above
