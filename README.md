@@ -38,3 +38,4 @@ http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8289090
 8. main.m -The main script file to run everything for progress 1
 9. mapping.m -Function file for mapping between binarylist and ternarylist
 10. ternarylist.m -Function file for creating a list of ternary(base3) numbers
+11. 8B6T_encoding_waveform.m-Shows signal waveform of the codeword
