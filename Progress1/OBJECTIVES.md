@@ -12,3 +12,11 @@
 <h2> Further Goals </h2>
 1. Implementing the 12B8T Encoding scheme using the above
 2. Graphing the results
+
+<h2> Problems </h2>
+1. Integrating the constraint check function with the mapping function
+    On using the constraint check function checkcorrect.m seperately, it is able to
+    verify if a given mapping is allowed or not.
+    On using the same function in the mapping function, the mapping function isn't able
+    to allocate values to a numbers in binarylist because of the nature of the randi
+    function in MATLAB.
