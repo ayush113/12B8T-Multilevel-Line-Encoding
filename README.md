@@ -28,5 +28,13 @@ http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8289090
 
 
 <h2>File Structure:</h2>
-1. Introduction.md - Explain theoretical aspects of the mini project.
-2. Design.md - Explain design aspects of the mini project.
+1. Images - Contains All Screenshots, results and other image information
+2. Progress1 -Contains Objectives and Results of Progress1
+3. Introduction.md - Explain theoretical aspects of the mini project.
+4. Design.md - Explain design aspects of the mini project.
+5. binarylist.m - Function File for generating a list of binary numbers of certain size
+6. checkcorrect.m -Function for checking if a given mapping satisfies the constraints
+7. checkunique.m -Function to check if a given mapping is unique
+8. main.m -The main script file to run everything for progress 1
+9. mapping.m -Function file for mapping between binarylist and ternarylist
+10. ternarylist.m -Function file for creating a list of ternary(base3) numbers
