@@ -20,3 +20,6 @@ scheme. For doing this we have followed the following algorithm listed in our se
 ![Image 3](../Images/ternary.jpg?raw=true "Ternary List")
 <h4> 2. Mapping Table (A few examples): </h4><br/>
 ![Image 1](../Images/mappingscreenshot.jpg?raw=true "Mapping")
+<br/>
+<h4> 3. Graphing encoded signals: </h4><br/>
+![Image 6](../Images/8B6T_codeword_waveform.png?raw=true "Graphing")
