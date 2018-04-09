@@ -1,0 +1,1 @@
+# MAPPINGS FOR 8B6T Encoding
