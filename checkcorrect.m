@@ -16,7 +16,7 @@ for i = 2:8
         check = value(i);
         counter = 1;
     end
-    if(counter>=3)
+    if(counter>3)
         flag = 1;
         break
     end
