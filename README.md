@@ -37,9 +37,21 @@ http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8289090
 3. Introduction.md - Explain theoretical aspects of the mini project.
 4. Design.md - Explain design aspects of the mini project.
 5. binarylist.m - Function File for generating a list of binary numbers of certain size
-6. checkcorrect.m -Function for checking if a given mapping satisfies the constraints
-7. checkunique.m -Function to check if a given mapping is unique
-8. main.m -The main script file to run everything for progress 1
-9. mapping.m -Function file for mapping between binarylist and ternarylist
-10. ternarylist.m -Function file for creating a list of ternary(base3) numbers
-11. 8B6T_encoding_waveform.m-Shows signal waveform of the codeword
+6. checkcorrect.m - Function for checking if a given mapping satisfies the constraints
+7. checkunique.m - Function to check if a given mapping is unique
+8. main.m - The main script file to run everything for progress 1
+9. mapping.m - Function file for mapping between binarylist and ternarylist
+10. ternarylist.m - Function file for creating a list of ternary(base3) numbers
+11. 8B6T_encoding_waveform.m - Shows signal waveform of the codeword
+12. 8B6Tmappings.md - File containing all the mappings for 8B6T
+13. 8b6t_chart.mat - MATLAB variable file for the encodings of 8B6T
+14. B6T8.m - File for simulating 8B6T encoding
+15. B6T12.m - File for simulating 12B8T encoding
+16. const_mapping.m - Checks the given list of 12B8T mapping for constraints
+17. cword_graph.m - Graphing function for both the encoding techniques
+18. decoding.m - File for retrieving dataword from a given codeword
+19. encoding_scheme_8B6T.m - Encoding scheme for 8B6T
+20. modified_mapping.m - Final encoding file for 12B8T
+21. processing.m - Processes the mapped encoding to replace it with signal elements
+22. transmission.m - Simulates the calculation of DC elements
+23. wave.m - Actual file for plotting graphs
