@@ -4,11 +4,24 @@
 %Creates mappings between them which satisfy all constraints and are
 %unique
 
-bi = binarylist(12);
-ti = ternarylist(8);
-maplis = mmapping(bi,ti);
-proclist = processing(maplis);
+%For loading 8B6T
+load('8b6t_chart.mat','encoding');
 
 while(1)
-    cword_graph(proclist);
+    num = input('Choose 1. 12B8T 2.8B6T\n');
+    if(num == 1)
+        flag = B8T12();
+        if(flag == 0)
+            sprintf('ERROR ENCOUNTERED\n')
+            continue;
+        end
+    else
+        if(num == 2)
+            flag = B6T8(encoding);
+            if(flag == 0)
+                sprintf('ERROR ENCOUNTERED\n')
+                continue;
+            end
+        end
+    end
 end
