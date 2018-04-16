@@ -19,6 +19,10 @@ encoding methods , it eliminates the problem with self synchronization, it has
 no DC components, and it performs better than existing methods of encoding like,
 4B3T and 8B6T in terms of speed of transmission, bandwidth and signal rate.
 
+What we plan to do: To implement the 8B6T and 12B8T encoding schemes and to 
+compare signal rates, DC components and bandwidth used for transmission for these
+two schemes.
+
 <h2>Objectives:</h2>
 1. Implement 12B8T Multilevel Line Coding Scheme.
 2. Comparison with other existing methods.
