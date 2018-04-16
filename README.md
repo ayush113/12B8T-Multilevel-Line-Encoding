@@ -55,3 +55,23 @@ http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8289090
 21. processing.m - Processes the mapped encoding to replace it with signal elements
 22. transmission.m - Simulates the calculation of DC elements
 23. wave.m - Actual file for plotting graphs
+
+<h2>Results and Analysis</h2>
+
+We were able to implement the 12B8T encoding system as per the specifications given in
+the paper. We create a list of all 12 bit binary numbers and all 8 bit ternary numbers
+and then create a mapping from the binary list to the ternarylist, this mapping is unique
+and satisfies the constraint condition of no more than 3 more consecutive characters.
+
+The 8B6T encoding scheme was also implemented to compare the efficiency of these two encoding
+schemes with respect to DC Components, Signal Rates and Bandwidth needed.
+
+<h5>Screenshots of program execution:</h5>
+![Image 1 ](../Images/f12B8T.png?raw=true "12B8T execution")<br/><br/>
+![Image 2](../Images/f8B6T.png?raw=true "8B6T execution")<br/><br/>
+
+<h5>Graphs for generated codewords</h5>
+<h6> 12B8T</h6>
+![Graph 1](../Images/12B8T1.jpg?raw=true "12B8T Graph") <br/><br/>
+ <h6> 8B6T</h6>
+![Graph 2](../Images/8B6T1.jpg?raw=true "8B6T Graph")
