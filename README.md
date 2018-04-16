@@ -75,3 +75,31 @@ schemes with respect to DC Components, Signal Rates and Bandwidth needed.
 ![Graph 1](../Images/12B8T1.jpg?raw=true "12B8T Graph") <br/><br/>
  <h6> 8B6T</h6>
 ![Graph 2](../Images/8B6T1.jpg?raw=true "8B6T Graph")
+
+<h4>Comparison between the encoding methods</h4>
+The two encoding methods can be compared with respect to their DC Components, Signal Rates
+and Bandwidth needed.
+
+<b>DC Components :</b><br/>
+DC Components are handled in both the encoding methods in a similar way. Both the
+encoding methods keep track of the weight of the codewords till the previous transmitted signal,
+if the weight will be unbalanced after the next signal then the current signal is altered(inverted)
+to balance the wieght.
+
+In case of 8B6T the receiver knows that the codeword was inverted if it's weight is -1, cause 8B6T only
+has +1 and 0 weights for all of it's encodings.
+
+In our implementation of 12B8T the receiver knows that a codeword is invalid because of the flag sent along
+with it.
+
+Both the encodings are not affected by DC Components.
+
+Example of Transmission:<br/><br/>
+![Image 3](../Images/fDC12B8T.png?raw=true "Transmission")
+<br/>
+The above image shows that whenever the sum of weights becomes unbalanced the next element
+(second) is inverted shown by flag(3rd row).
+
+<b>Signal Rates</b>
+
+<b>Bandwidth</b>
