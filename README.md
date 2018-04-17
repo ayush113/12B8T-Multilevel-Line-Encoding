@@ -100,6 +100,21 @@ Example of Transmission:<br/><br/>
 The above image shows that whenever the sum of weights becomes unbalanced the next element
 (second) is inverted shown by flag(3rd row).
 
-<b>Signal Rates</b>
+<b>Signal Rates</b><br/>
+<i>For 12B8T:</i><br/>
+In 12B8T line encoding system we have 12 data elements being transmitted using 8 signal elements
+thus givin us a ratio r = 12/8. Using the formula for signal rate we get the Signal Rate for 12B8T as
+4N/12.<br/>
+<i>For 8B6T:</i><br/>
+In 8B6T encoding similarly we have r = 8/6 giving us an overall signal rate of 3N/4 which is higher than 
+that of 12B8T encoding.
+
+Fo any value of the data rate N we have proved that the signal rate of 12B8T encoding method will be lesser.
 
 <b>Bandwidth</b>
+Bandwidth and Signal Rate are closely related to each other, from the following table we can establish that
+for a given data rate 12B8T encoding will have a lower bandwidth.
+<br/>
+![image 8](../Images/bandwidth.png?raw=true "Bandwidth")
+<br/>
+<b>Conclusion</b><br/>
