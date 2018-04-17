@@ -118,3 +118,6 @@ for a given data rate 12B8T encoding will have a lower bandwidth.
 ![image 8](../Images/bandwidth.png?raw=true "Bandwidth")
 <br/>
 <b>Conclusion</b><br/>
+In this implementation we were able to verify the claims made by the paper. Our implementation of 12B8T is more efficient
+than 8B6T multilevel line encoding method. The only problem with 12B8T encoding method is that it doesn't account for
+baseline wandering.
