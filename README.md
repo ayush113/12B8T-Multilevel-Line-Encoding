@@ -67,7 +67,8 @@ The 8B6T encoding scheme was also implemented to compare the efficiency of these
 schemes with respect to DC Components, Signal Rates and Bandwidth needed.  
 
 <h5>Screenshots of program execution:</h5>  
-![Image 1 ](../Images/f12B8T.png?raw=true "12B8T execution")<br/><br/>  
+![Image 1](https://raw.githubusercontent.com/ayush113/12B8T-Multilevel-Line-Encoding/master/Images/f12B8T.png)
+<br/><br/>  
 ![Image 2](../Images/f8B6T.png?raw=true "8B6T execution")<br/><br/>  
 
 <h5>Graphs for generated codewords</h5>  
